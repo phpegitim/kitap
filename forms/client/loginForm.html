@@ -1,0 +1,39 @@
+<form action="../server/loginFormBack.php" method="post">
+	
+	<label>Kullanıcı adı:</label>
+	<input type="text" name="user_name" id="user_name" value="" placeholder="lütfen kullanıcı adınızı giriniz" autofocus />
+	<hr>
+	<label>Parola</label>
+	<input type="password" name="pass" id="pass" placeholder="parolanızı giriniz" />	
+	<hr>
+	
+	<label>Cinsiyet</label><br>
+	
+	<label>Kadın</label>
+	<input type="radio" checked name="gender" id="gender" value="1"  />	
+	<label>Erkek</label>
+	<input type="radio" name="gender" id="gender" value="2"  />		
+	
+	<hr>
+	
+	<label>Yaşadığı Şehir</label>
+	<select name="city">
+		<option value="">Seçin</option>
+		<option selected value="34">Istanbul</option>
+		<option value="35">İzmir</option>
+	</select>
+		
+	<hr>
+		
+	<label>Öz geçmiş</label>
+	<textarea name="cv" id="cv"></textarea>	
+			
+	<hr>
+	
+	<label>Bülten Aboneliği</label>
+	<input type="checkbox" name="subsc" id="subsc" value=""  />
+	<hr>
+	
+	<input type="submit" name="send" id="send" value="Gönder" />	
+	
+</form>
