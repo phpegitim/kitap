@@ -5,10 +5,10 @@ try {
 	$client = new SoapClient("https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL");
 	
 	$params = [
-		'TCKimlikNo' => 38035335156, 
+		'TCKimlikNo' => 11111111111, 
 		'Ad' => 'MEHMET ALİ', 
 		'Soyad' => 'UYSAL', 
-		'DogumYili' => 1986
+		'DogumYili' => 1985
 	];
 	
 	$result = $client -> TCKimlikNoDogrula($params);

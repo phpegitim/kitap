@@ -5,17 +5,17 @@ try {
 	$client = new SoapClient("https://tckimlik.nvi.gov.tr/Service/KPSPublicV2.asmx?WSDL");
  
 	$params = [
-		'TCKimlikNo'=>38035335156,
+		'TCKimlikNo'=>11111111111,
 		'Ad'=>'MEHMET ALİ',
 		'Soyad'=>'UYSAL',
 		'SoyadYok'=>false,
-		'DogumGun'=>30,
+		'DogumGun'=>20,
 		'DogumGunYok'=>false,
 		'DogumAy'=>3,
 		'DogumAyYok'=>false,
-		'DogumYil'=>1986,
-		'CuzdanSeri'=>'U11',
-		'CuzdanNo'=>991215,
+		'DogumYil'=>1985,
+		'CuzdanSeri'=>'K11',
+		'CuzdanNo'=>990015,
 		'TCKKSeriNo'=>''
 	];  	
 	
