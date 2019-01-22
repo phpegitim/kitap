@@ -115,14 +115,6 @@ foreach ($account as $key => $value)
 	echo $value['name'].' '.$value['lastName'].'<br>';
 
 
-
-die();
-
-
-
-
-
-
 die();
 
 $categories = 
