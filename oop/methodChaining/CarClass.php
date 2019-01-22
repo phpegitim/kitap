@@ -25,9 +25,3 @@ $audi = new CarClass();
 $chainOperation = $audi -> fill(45) -> ride(100) -> getFuelRemaining();
 
 echo 'Kalan yakıt ',$chainOperation,' litre';
-
-$dbProvider = DBConnProvider::getInstance();
-$getUser = $dbProvider->from('users')
-				->fields(['first_name'])
-				->where(['id'=>1])
-				->query();

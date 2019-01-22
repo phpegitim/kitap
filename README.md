@@ -4,7 +4,7 @@
 
 Kitabımızda anlatılan tüm örnek uygulamalara buradan ulaşabilirsiniz.
 
-Anlaşılamayan konularda destek almak için **phpegitimkitabi@gmail.com** konuyu açıklar detaylı mail atabilirsiniz.
+Anlaşılamayan konularda destek almak için **phpegitimkitabi@gmail.com** adresine mail atabilirsiniz.
 
 ## PHP'nin Temelleri
 
@@ -55,7 +55,7 @@ Anlaşılamayan konularda destek almak için **phpegitimkitabi@gmail.com** konuy
 *Tüm fonksiyon örnekleri bu dosya üzerinden anlatıldı. Kitabın bölümlerini takip ederek uygulayınız.*
 
 ## Nesne Yönelimli Programlama 
-*OOP konusu örnekler **oop** klasoru altına konumlandırıldı.*
+*OOP konusu örnekleri **oop** klasoru altına konumlandırıldı.*
 
 * Köpek Sınıfı (**DogClass**) Örneği [DogClass.php](https://github.com/phpegitim/kitap/blob/master/oop/DogClass.php)
 * **Sleep, Wakeup** Metotları ve **Serialization** [serialization.php](https://github.com/phpegitim/kitap/blob/master/serialization.php)
@@ -65,14 +65,14 @@ Anlaşılamayan konularda destek almak için **phpegitimkitabi@gmail.com** konuy
 * **Try, Catch, Finally** Yapıları ve İstisnalar (**Exception**) ile Hata Yönetimi [tryCatch.php](https://github.com/phpegitim/kitap/blob/master/oop/tryCatch.php)
 
 ## Nesnelerde Kapsülleme ve Bilgi Gizleme
-*OOP konusu örnekler **oop** klasoru altına konumlandırıldı.*
+*Örnekler **oop** klasoru altına konumlandırıldı.*
 * Koruma Maddeleri (**Guard Clauses**) [guardClauses.php](https://github.com/phpegitim/kitap/blob/master/oop/guardClauses.php)
 * Nesnelerde Kapsülleme ve Bilgi Gizleme [UserClass.php](https://github.com/phpegitim/kitap/blob/master/oop/oop/UserClass.php)
 * PHP’de Dosya Dâhil Etme [fileInclusion.php](https://github.com/phpegitim/kitap/blob/master/oop/oop/fileInclusion.php)
 
 
 ## Nesnelerde Kalıtım ve Çok biçimlilik 
-*Örnek dosyalar **oop/inheritance/** klasoru altına konumlandırıldı.* 
+*Örnek dosyalar **oop/inheritance/** klasöru altına konumlandırıldı.* 
 
 *Kalıtım, Çok Biçimlilik ve Kapsülleme Örneği* 
 * Hayvan sınıfı [AnimalsClass.php](https://github.com/phpegitim/kitap/blob/master/oop/inheritance/AnimalsClass.php)
@@ -95,8 +95,9 @@ Anlaşılamayan konularda destek almak için **phpegitimkitabi@gmail.com** konuy
 
 ## Nesnelerde Singleton Tasarım Deseni 
 *Örnek dosyalar **oop/designPatterns/singleton/** klasoru altına konumlandırıldı.*
+
 *Veritabanı bağlantı nesnesi örneği*
-Veritabanı bağlatı sağlayıcı sınıfı [DBConnProvider.php](https://github.com/phpegitim/kitap/blob/master/oop/singleton/DBConnProvider.php)
+* Veritabanı bağlatı sağlayıcı sınıfı [DBConnProvider.php](https://github.com/phpegitim/kitap/blob/master/oop/designPatterns/singleton/DBConnProvider.php)
 
 ## Nesne Arayüzleri ve Ortak Nitelik Sınıfları
 
@@ -114,7 +115,7 @@ Veritabanı bağlatı sağlayıcı sınıfı [DBConnProvider.php](https://github
 ### Ortak Nitelik Sınıfları (Traits)
 *Örnek dosyalar **oop/traits/** klasorü altına konumlandırıldı.*
 
-*Pegasus Arayüzü Örneği* 
+*Pegasus Örneği* 
 * At sınıfı [HorseClass.php](https://github.com/phpegitim/kitap/blob/master/oop/traits/HorseClass.php)
 * Uçabilme niteliği (**trait**) [FlyableTrait.php](https://github.com/phpegitim/kitap/blob/master/oop/traits/FlyableTrait.php)
 * Süzülebilme niteliği (**trait**)  [SoarableTrait.php](https://github.com/phpegitim/kitap/blob/master/oop/traits/SoarableTrait.php)
@@ -145,14 +146,14 @@ Veritabanı bağlatı sağlayıcı sınıfı [DBConnProvider.php](https://github
 * Başlatıcı [init.php](https://github.com/phpegitim/kitap/blob/master/oop/namespace/init.php)
 
 ### Otomatik Yükleme (Autoloading)
-*Örnek dosyalar **oop/AutoLoad/** klasorü altına konumlandırıldı.*
+*Örnek dosyalar **oop/Autoload/** klasorü altına konumlandırıldı.*
 *Nesne arayüzü, Soyut Sınıf içeren ve nesnelerin otomatik yüklendiği bir örnek* 
 
-* Kişi nesne arayüzü(**interface**) [Interfaces/User.php](https://github.com/phpegitim/kitap/blob/master/oop/AutoLoad/Interfaces/Person.php)
-* Kullanıcı soyut(**abstract**) sınıfı [Abstracts/User.php](https://github.com/phpegitim/kitap/blob/master/oop/AutoLoad/Abstracts/User.php)
-* Personel sınıfı [Classes/Staff.php](https://github.com/phpegitim/kitap/blob/master/oop/AutoLoad/Classes/Staff.php)
-* Otomatik yükleme (**autoload**) betiği [autoload.php](https://github.com/phpegitim/kitap/blob/master/oop/AutoLoad/autolad.php)
-* Başlatıcı [init.php](https://github.com/phpegitim/kitap/blob/master/oop/AutoLoad/init.php)
+* Kişi nesne arayüzü(**interface**) [Interfaces/User.php](https://github.com/phpegitim/kitap/blob/master/oop/Autoload/Interfaces/Person.php)
+* Kullanıcı soyut(**abstract**) sınıfı [Abstracts/User.php](https://github.com/phpegitim/kitap/blob/master/oop/Autoload/Abstracts/User.php)
+* Personel sınıfı [Classes/Staff.php](https://github.com/phpegitim/kitap/blob/master/oop/Autoload/Classes/Staff.php)
+* Otomatik yükleme (**autoload**) betiği [autoload.php](https://github.com/phpegitim/kitap/blob/master/oop/Autoload/autoload.php)
+* Başlatıcı [init.php](https://github.com/phpegitim/kitap/blob/master/oop/Autoload/init.php)
 
 
 
@@ -212,7 +213,7 @@ Veritabanı bağlatı sağlayıcı sınıfı [DBConnProvider.php](https://github
 ### PHP’de Oturum İşlemleri
 *Örnek dosyalar **session** klasorü altına konumlandırıldı.*
 
-*Basit oturum verilerini tanımlama ve erişme örneği*
+*Oturum verilerini tanımlama ve erişme örneği*
 
 * Oturum verisi oluşturma örneği [basics/addSessionData.php](https://github.com/phpegitim/kitap/blob/master/session/basics/addSessionData.php)
 * Oturum verisi okuma örneği [basics/readSessionData.php](https://github.com/phpegitim/kitap/blob/master/session/basics/readSessionData.php)
@@ -257,10 +258,10 @@ Veritabanı bağlatı sağlayıcı sınıfı [DBConnProvider.php](https://github
 
 ## MVC Uygulama Çatısı ve TO-DO List Projesi
 
-*Kitabın bitirme projesi olarak ele alınan **MVC Uygulama Çatısı** ve **TO-DO List** (Yapılacaklar Listesi) Geliştirme Projesi*
+*Kitabın bitirme projesi olarak ele alınan **MVC Uygulama Çatısı** ve **TO-DO List** (Yapılacaklar Listesi) Projesi*
 
 ### MVC Uygulama Çatısı
-*Uygulama çatısı dosyaları **Core** klasorune konumlandırıldı*
+*Uygulama çatısı dosyaları **Core** klasörüne konumlandırıldı*
 
 #### MVC Katman Sınıfları
 * Model soyut sınıfı [Model.php](https://github.com/phpegitim/kitap/blob/master/mvc/Core/Model.php)
@@ -289,7 +290,7 @@ Veritabanı bağlatı sağlayıcı sınıfı [DBConnProvider.php](https://github
 
 * UserController - Kullanıcı işlemleri Kontrölörü  [Controller/UserController.php](https://github.com/phpegitim/kitap/blob/master/mvc/App/Controller/UserController.php)
 
-* UserController - Kullanıcı işlemleri Kontrölörü  [Controller/UserController.php](https://github.com/phpegitim/kitap/blob/master/mvc/App/Controller/UserController.php)
+* TodoController - TO-DO işlemleri Kontrölörü  [Controller/TodoController.php](https://github.com/phpegitim/kitap/blob/master/mvc/App/Controller/TodoController.php)
 
 #### Model Sınıfları
 
@@ -310,7 +311,7 @@ Veritabanı bağlatı sağlayıcı sınıfı [DBConnProvider.php](https://github
 
 #### View Arayüz Betiklerine Yardımcı Ek Dosyalar
 * Arayüz başlık (**Header**) betiği [header/main.php](https://github.com/phpegitim/kitap/blob/master/mvc/App/View/template/bootstrap/header/main.php)
-* Arayüz son Kısım (**Footer**) betiği [header/main.php](https://github.com/phpegitim/kitap/blob/master/mvc/App/View/template/bootstrap/footer/main.php)
+* Arayüz son Kısım (**Footer**) betiği [footer/main.php](https://github.com/phpegitim/kitap/blob/master/mvc/App/View/template/bootstrap/footer/main.php)
 * Arayüz navigasyon linkleri (**Navigation**) betiği [widgets/navigation.php](https://github.com/phpegitim/kitap/blob/master/mvc/App/View/template/bootstrap/footer/main.php)
 
 #### Public (Herkese açık) dosyalar
@@ -323,7 +324,7 @@ Veritabanı bağlatı sağlayıcı sınıfı [DBConnProvider.php](https://github
 * Kullanıcı profili düzenleme arayüzünde kullanılan (**user-profile.php**) kullanılan js dosyası [Public/js/user-profile.js](https://github.com/phpegitim/kitap/blob/master/mvc/Public/js/user-profile.js)
 
 ##### CSS (Stil tanımlamaları) Dosyaları
-* login.php giriş arayüzüne özel stil tanımlalamarı dosyası [Public/css/login.css](https://github.com/phpegitim/kitap/blob/master/mvc/App/View/template/bootstrap/Public/css/login.css)
+* login.php giriş arayüzüne özel stil tanımlalamarı dosyası [Public/css/login.css](https://github.com/phpegitim/kitap/blob/master/mvc/Public/css/login.css)
 
 ## PHP’de Web Servis ve REST, SOAP, CURL Yapıları 
 *Örnek betikler **rest** ve **soap** klasorleri altına konumlandırıldı*
@@ -339,5 +340,20 @@ Veritabanı bağlatı sağlayıcı sınıfı [DBConnProvider.php](https://github
 
 *SoapClient sınıfını kullanarak TC İçişleri Bakanlığı Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü, KPS(Kimlik Paylaşım Sistemi) XML Webservisi istek örneği*
 * **SoapClient** sınıfı kullanarak KPS servisi **TCKimlikNoDogrula** metodu ile kimlik doğrulama örneği [soap/client.php](https://github.com/phpegitim/kitap/blob/master/soap/client.php)
-* **SoapClient** sınıfı kullanarak KPS servisi **KisiVeCuzdanDogrula** metodu ile cüzdan bilgisi doğrulama örneği [soap/client.php](https://github.com/phpegitim/kitap/blob/master/soap/client2.php)
+* **SoapClient** sınıfı kullanarak KPS servisi **KisiVeCuzdanDogrula** metodu ile cüzdan bilgisi doğrulama örneği [soap/client2.php](https://github.com/phpegitim/kitap/blob/master/soap/client2.php)
+
+
+## Lisans
+
+Bu proje MIT Lisansı altında lisanslıdır - detaylar için [LICENSE](https://github.com/phpegitim/kitap/blob/master/LICENSE) dosyasına bakınız.
+
+## Yazar
+* Mehmet Ali UYSAL
+
+## Teşekkur
+
+* Rahmi DALICI *Editör*
+* Salim YILMAZ *Geliştirici / Okur*
+* Ahmet SARAÇ *Okur*
+* Hasan Basri BALCI *Geliştirici / Okur*
 
