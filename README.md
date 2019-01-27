@@ -21,9 +21,6 @@ Anlaşılamayan konularda destek almak için **phpegitimkitabi@gmail.com** adres
 ## Veri Tipleri
 * Veri tipleri  [dataTypes.php](https://github.com/phpegitim/kitap/blob/master/dataTypes.php) 
 
-## Aritmetik Operatörler
-* Aritmetik operetörler  [arithmeticOperators.php](https://github.com/phpegitim/kitap/blob/master/arithmeticOperators.php) 
-
 ## PHP’de Operatörler
 * Aritmetik operetörler  [arithmeticOperators.php](https://github.com/phpegitim/kitap/blob/master/arithmeticOperators.php) 
 * Atama Operatörleri  [assigmentOperators.php](https://github.com/phpegitim/kitap/blob/master/assigmentOperators.php) 
