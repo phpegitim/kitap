@@ -1,6 +1,6 @@
 <?php
 namespace App\Controller;
-use App\{Model\Todo,Helper\Authhelper};
+use App\{Model\Todo,Helper\AuthHelper};
 use Core\View;
 
 class TodoController extends \Core\Controller {
