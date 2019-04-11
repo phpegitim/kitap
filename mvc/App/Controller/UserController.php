@@ -1,6 +1,6 @@
 <?php
 namespace App\Controller;
-use App\{Model\User AS UserModel,Helper\Authhelper};
+use App\{Model\User AS UserModel,Helper\AuthHelper};
 use Core\View;
 
 class UserController extends \Core\Controller {
