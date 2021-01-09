@@ -1,6 +1,4 @@
 <?php
-phpinfo();
-
 
 $persons = array(
   ['name' => 'Merve', 'age' => 26, 'experienceYear'=>3, 'englishLevel'=>1],
